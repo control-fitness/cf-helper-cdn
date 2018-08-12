@@ -1,5 +1,4 @@
 class Cdn {
-
   constructor() {
     this.host = 'http://cdn.control.fitness';
   }
@@ -13,6 +12,14 @@ class Cdn {
     return `${this.host}/images/${fileName}`;
   }
 
+  /**
+   * Return stylesheet url
+   * @param  {String} fileName [semantic-ui/semantic.min.css]
+   * @return {String}
+   */
+  stylesheet(fileName) {
+    return `${this.host}/stylesheets/${fileName}`;
+  }
 }
 
 export default new Cdn();
