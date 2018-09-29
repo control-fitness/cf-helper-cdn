@@ -1,6 +1,6 @@
 class Cdn {
   constructor() {
-    this.host = 'http://cdn.control.fitness';
+    this.host = 'https://www.control.fitness/cdn';
   }
 
   /**
