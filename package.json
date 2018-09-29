@@ -1,6 +1,6 @@
 {
   "name": "react-cf-helper-cdn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Control Fitness helper to fetch CDN files",
   "main": "index.js",
   "repository": "https://github.com/control-fitness/react-cf-helper-cdn.git",
